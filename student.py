@@ -6,7 +6,7 @@ def add_student():
     # Nhập dữ liệu từ bàn phím
     id_sv = input("Nhập mã số sinh viên: ")
     
-    # Kiểm tra trùng mã số sinh viên (bổ trợ thêm cho logic)
+    # Kiểm tra trùng mã số sinh viên
     for s in students:
         if s['id'] == id_sv:
             print("Lỗi: Mã sinh viên này đã tồn tại!")
