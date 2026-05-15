@@ -21,6 +21,13 @@ def search_student():
         # Tìm theo ID (khớp hoàn toàn) hoặc Tên (có chứa từ khóa)
         if keyword == std['id'] or keyword.lower() in std['name'].lower():
             results.append(std)
+    # Bước 3: In kết quả ra màn hình
+    if not results:
+        print(f"[-] Rất tiếc, không tìm thấy sinh viên nào khớp với '{keyword}'.")
+    else:
+        print(f"[+] Tuyệt vời! Tìm thấy {len(results)} kết quả:")
+        for std in results:
+             print(f"  > ID: {std['id']} | Tên: {std['name']} | Ngành: {std['major']}") 
 
 def delete_student():
     print("--- Chức năng: Xóa sinh viên ---")
