@@ -17,7 +17,7 @@ def delete_student():
     # Thành viên 4 sẽ code ở đây
     print("--- Chức năng: Xóa sinh viên ---")
 
-    student_id = input("Nhập mã sinh viên cần xóa: ")
+    student_id = input("Nhập mã sinh viên cần xóa: ").strip()
 
     for student in students:
         if student["id"] == student_id:
