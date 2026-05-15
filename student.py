@@ -14,6 +14,13 @@ def search_student():
     # Bước 1: Nhận input từ người dùng
     keyword = input("Nhập tên hoặc ID sinh viên cần tìm: ")
     print(f"Hệ thống đang tìm kiếm từ khóa: '{keyword}'...")
+    global students_db 
+    results = []
+    
+    for std in students_db:
+        # Tìm theo ID (khớp hoàn toàn) hoặc Tên (có chứa từ khóa)
+        if keyword == std['id'] or keyword.lower() in std['name'].lower():
+            results.append(std)
 
 def delete_student():
     print("--- Chức năng: Xóa sinh viên ---")
