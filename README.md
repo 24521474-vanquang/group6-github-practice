@@ -1,5 +1,3 @@
-Đây là nội dung file README.md dưới dạng plain text để bạn có thể dễ dàng sao chép và sử dụng:
-
 # BÁO CÁO THỰC HÀNH LAB 5
 
 Chào mừng bạn đến với repository của nhóm thực hiện bài tập thực hành Lab 5. Đây là nơi lưu trữ các mã nguồn, tài liệu và kết quả thực hiện các bài tập trong khuôn khổ học phần.
