@@ -14,14 +14,17 @@ def show_students():
     print(f"{'Mã SV':<10} | {'Họ và Tên':<25} | {'Điểm':<5}")
     print("-" * 47) 
 
-    for sv in students:
+    # MỚI SỬA: Sắp xếp danh sách dựa vào key "id" trước khi lặp
+    sorted_students = sorted(students, key=lambda x: x.get("id", ""))
+
+    # Đổi students thành sorted_students ở vòng lặp for
+    for sv in sorted_students:
         ma_sv = sv.get("id", "N/A")
         ten = sv.get("name", "N/A")
         diem = sv.get("score", "N/A")
         print(f"{ma_sv:<10} | {ten:<25} | {diem:<5}")
         
     print("-" * 47) 
-    # MỚI THÊM: In tổng số lượng sinh viên
     print(f"Tổng số lượng sinh viên trong danh sách: {len(students)}")
 
 def search_student():
