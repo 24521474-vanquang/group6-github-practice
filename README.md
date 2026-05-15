@@ -29,7 +29,7 @@ Tóm tắt các nội dung chính của bài Lab 5:
 
 ## 4. CÔNG NGHỆ SỬ DỤNG
 
-* Ngôn ngữ lập trình: (Ví dụ: Python, C++, Java...)
+* Ngôn ngữ lập trình: (Python
 * Công cụ hỗ trợ: Git, GitHub, VS Code.
 
 ## 5. HƯỚNG DẪN CHẠY DỰ ÁN
