@@ -1,46 +1,28 @@
-# BÁO CÁO THỰC HÀNH LAB 5
+# 📚 BÀI TẬP NHÓM: QUẢN LÝ SINH VIÊN (THỰC HÀNH GIT)
 
-Chào mừng bạn đến với repository của nhóm thực hiện bài tập thực hành Lab 5. Đây là nơi lưu trữ các mã nguồn, tài liệu và kết quả thực hiện các bài tập trong khuôn khổ học phần.
+Repository này lưu trữ mã nguồn chương trình Quản lý Sinh viên, phục vụ cho bài tập thực hành Git & GitHub khi làm việc nhóm.
 
-## 1. THÔNG TIN NHÓM
+## 👥 1. THÀNH VIÊN NHÓM
+Danh sách các "chiến thần" tham gia code dự án này:
+- 👑 Nông Văn Quang (MSSV: 24521474) - Nhóm trưởng
+- 💻 Nguyễn Minh Thanh (MSSV: 24521629) - Developer
+- 💻 Trần Văn Quân (MSSV: 24521456) - Developer
+- 💻 Võ Minh Quân (MSSV: 24521458) - Developer
 
-Dưới đây là danh sách các thành viên tham gia thực hiện dự án:
+## 📁 2. CẤU TRÚC FILE SOURCE CODE
+Thay vì dùng folder, nhóm cấu trúc trực tiếp bằng các file Python:
+- `main.py`: Chứa menu giao diện và luồng chạy chính.
+- `student.py`: Chứa database giả lập và các hàm logic (thêm, hiển thị, tìm kiếm).
+- `utils.py`: Chứa các hàm hỗ trợ định dạng console.
 
-1. Nông Văn Quang - MSSV: 24521474
-2. Nguyễn Minh Thanh - MSSV: 24521629
-3. Trần Văn Quân - MSSV: 24521456
-4. Võ Minh Quân - MSSV: 24521458
+## 🚀 3. HƯỚNG DẪN CÀI ĐẶT & CHẠY
+1. Mở Terminal và gõ: `git clone [URL_REPO_CỦA_NHÓM]`
+2. Chuyển vào thư mục: `cd [TÊN_REPO]`
+3. Chạy chương trình: `python main.py`
 
-## 2. CẤU TRÚC REPOSITORY
-
-* /src: Chứa mã nguồn của bài tập.
-* /docs: Chứa các tài liệu hướng dẫn và báo cáo chi tiết.
-* /output: Chứa kết quả chạy chương trình, hình ảnh minh họa.
-
-## 3. NỘI DUNG THỰC HIỆN
-
-Tóm tắt các nội dung chính của bài Lab 5:
-
-* Yêu cầu 1: ...
-* Yêu cầu 2: ...
-* Yêu cầu 3: ...
-
-## 4. CÔNG NGHỆ SỬ DỤNG
-
-* Ngôn ngữ lập trình: (Python
-* Công cụ hỗ trợ: Git, GitHub, VS Code.
-
-## 5. HƯỚNG DẪN CHẠY DỰ ÁN
-
-Bước 1: Clone repository về máy cá nhân:
-git clone [URL_REO_CỦA_BẠN]
-
-Bước 2: Truy cập vào thư mục dự án:
-cd [TÊN_THƯ_MỤC]
-
-Bước 3: Thực thi chương trình:
-[Lệnh chạy chương trình tương ứng]
+## 🛠️ 4. CÔNG NGHỆ ÁP DỤNG
+- Ngôn ngữ: Python 3.x
+- Version Control: Git, GitHub
 
 ---
-
-Cập nhật lần cuối: Tháng 05/2024
+Cập nhật lần cuối: Báo cáo thực hành Git - 2026. Đã chỉnh sửa nội dung này để test chức năng Conflict!
