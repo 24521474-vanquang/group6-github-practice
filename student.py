@@ -11,6 +11,9 @@ def show_students():
 def search_student():
     print("--- Chức năng: Tìm kiếm sinh viên ---")
     # Thành viên 3 sẽ code ở đây
+    # Bước 1: Nhận input từ người dùng
+    keyword = input("Nhập tên hoặc ID sinh viên cần tìm: ")
+    print(f"Hệ thống đang tìm kiếm từ khóa: '{keyword}'...")
 
 def delete_student():
     print("--- Chức năng: Xóa sinh viên ---")
