@@ -33,4 +33,13 @@ def search_student():
 
 def delete_student():
     print("--- Chức năng: Xóa sinh viên ---")
-    # Thành viên 4 sẽ code ở đây
+
+    student_id = input("Nhập mã sinh viên cần xóa: ").strip()
+
+    for student in students:
+        if student["id"] == student_id:
+            students.remove(student)
+            print(f"Đã xóa sinh viên có mã {student_id} thành công!")
+            return
+
+    print("Không tìm thấy sinh viên cần xóa!")
